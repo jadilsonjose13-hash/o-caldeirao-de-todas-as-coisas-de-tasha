@@ -1,0 +1,245 @@
+{
+  "id": "o-caldeirao-de-todas-as-coisas-de-tasha",
+  "title": "O Caldeirão de Todas as Coisas de Tasha",
+  "version": "1.5.2",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "livro-do-jogador-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-item-compendium-by-gwill",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>Uma mistura mágica de novas opções de regras para o maior RPG de todos os tempos.</p>",
+  "authors": [
+    {
+      "name": "Jadilson Santos",
+      "email": "jadilsonjose13@gmail.com",
+      "discord": "png_man",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "modules/o-caldeirao-de-todas-as-coisas-de-tasha/imagens/thumb-modulo.jpg",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "caracteristicas-de-classes",
+      "label": "Características de Classes",
+      "path": "packs/caracteristicas-de-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "talentos",
+      "label": "Talentos",
+      "path": "packs/talentos",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magias",
+      "label": "Magias",
+      "path": "packs/magias",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "types": [
+            "spell"
+          ]
+        }
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tabelas",
+      "label": "Tabelas",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "itens-magicos",
+      "label": "Itens Mágicos",
+      "path": "packs/itens-magicos",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras",
+      "label": "Regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "atores",
+      "label": "Atores",
+      "path": "packs/atores",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-atores",
+      "label": "Características de Atores",
+      "path": "packs/caracteristicas-de-atores",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "miscelanea",
+      "label": "Miscelânea",
+      "path": "packs/miscelanea",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "O Caldeirão de Todas as Coisas de Tasha",
+      "sorting": "a",
+      "color": "#a24d08",
+      "packs": [
+        "talentos",
+        "tabelas",
+        "regras"
+      ],
+      "folders": [
+        {
+          "name": "Atores",
+          "sorting": "m",
+          "color": "#914507",
+          "packs": [
+            "atores",
+            "caracteristicas-de-atores"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Classes",
+          "sorting": "m",
+          "color": "#813d06",
+          "packs": [
+            "classes",
+            "caracteristicas-de-classes"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Equipamento",
+          "sorting": "a",
+          "color": "#713505",
+          "packs": [
+            "miscelanea"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Miscelânea Mágica",
+          "sorting": "a",
+          "color": "#612e04",
+          "packs": [
+            "magias",
+            "itens-magicos"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.o-caldeirao-de-todas-as-coisas-de-tasha.regras.JournalEntry.DDKECsPl2fygduzo.JournalEntryPage.Ruc07bP7hU4wm1lY",
+        "Compendium.o-caldeirao-de-todas-as-coisas-de-tasha.regras.JournalEntry.DDKECsPl2fygduzo.JournalEntryPage.k4AFXlh8TYbRbY3W",
+        "Compendium.o-caldeirao-de-todas-as-coisas-de-tasha.regras.JournalEntry.DDKECsPl2fygduzo.JournalEntryPage.4QXJUAjmZ10ipCcL",
+        "Compendium.o-caldeirao-de-todas-as-coisas-de-tasha.regras.JournalEntry.DDKECsPl2fygduzo.JournalEntryPage.4w1eLj7xMbWOymr3",
+        "Compendium.o-caldeirao-de-todas-as-coisas-de-tasha.regras.JournalEntry.DDKECsPl2fygduzo.JournalEntryPage.6i8YWwapVUL4zS4v",
+        "Compendium.o-caldeirao-de-todas-as-coisas-de-tasha.regras.JournalEntry.DDKECsPl2fygduzo.JournalEntryPage.WcykHnhlbrwapgyP",
+        "Compendium.o-caldeirao-de-todas-as-coisas-de-tasha.regras.JournalEntry.DDKECsPl2fygduzo.JournalEntryPage.ypQ63eCbuIZAg3JJ",
+        "Compendium.o-caldeirao-de-todas-as-coisas-de-tasha.regras.JournalEntry.DDKECsPl2fygduzo.JournalEntryPage.rVmzBI9TWASJrScu",
+        "Compendium.o-caldeirao-de-todas-as-coisas-de-tasha.regras.JournalEntry.DDKECsPl2fygduzo.JournalEntryPage.66dYPKq1MCLxy7U7"
+      ],
+      "sourceBooks": {
+        "TCE": "O Caldeirão de Todas as Coisas de Tasha"
+      }
+    }
+  },
+  "url": "https://github.com/jadilsonjose13-hash/o-caldeirao-de-todas-as-coisas-de-tasha",
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/o-caldeirao-de-todas-as-coisas-de-tasha/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/o-caldeirao-de-todas-as-coisas-de-tasha/archive/refs/heads/main.zip"
+}
